@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B494A009-D619-88A4-9C9E-EC2DE105A927" name="Comment">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:32:12 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Comment_id" id="BE73F309-7486-A3D8-02D9-09B523F70234">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:33:01 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Task_id" id="31DD8256-CC78-CAA4-3EBE-E468A01F38C6">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:33:01 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B2B4D0D-C25C-AF89-F94F-713922EFDEDB" referredColumn="4AEB1B2B-861D-9B1A-F121-79C1203EB19A"/>
+</associations>
+</Column>
+<Column name="User_id" id="C4E140BF-B313-600E-DD9C-E39FBD656D50">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:35:38 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AE728E4-2B55-1F6F-1216-FB6C3F8B7075" referredColumn="6B37ED77-CAB5-0D01-9F5B-5EFFFBCB9FC0"/>
+</associations>
+</Column>
+<Column name="Comment_content" id="D9E01365-652C-C915-133A-6C693C891A6A">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:35:38 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01851C96-2600-9478-52A2-DBB0E8C313FE" name="Comment_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:33:01 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE73F309-7486-A3D8-02D9-09B523F70234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBAE9C97-E00E-08EE-F263-5C2219867363" name="Comment_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:35:38 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31DD8256-CC78-CAA4-3EBE-E468A01F38C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F56292B-C6FD-4A3E-C0AF-D5DC910E74AB" name="Comment_User_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:35:38 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4E140BF-B313-600E-DD9C-E39FBD656D50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A4FC715-837B-781B-648B-BB48D12A2012" name="Task_resource">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:06:08 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Task_resource_id" id="5034D7EE-45BA-F1B1-881C-A4C47A3495DC">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:20:21 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Resource_id" id="325BAF2A-57E1-2A70-BFD9-DDFD25F235BB">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:20:21 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F326EB4-3511-E53E-319A-94A7B93D510C" referredColumn="5C90CEEB-1279-A1E8-19D8-70A73450DF94"/>
+</associations>
+</Column>
+<Column name="Task_id" id="09C6A674-FF2A-ABC6-7DCF-67E51DAC9540">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:20:21 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D785BB00-4423-FB60-C5C1-84106523904C" referredColumn="4AEB1B2B-861D-9B1A-F121-79C1203EB19A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3724E417-ACDC-91D4-DE47-3EEACECCC8E8" name="Task_resource_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:20:21 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5034D7EE-45BA-F1B1-881C-A4C47A3495DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A42D6B89-0AEF-B0F4-B976-6CD9BDEA98A4" name="Task_resource_Resources_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:20:21 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="325BAF2A-57E1-2A70-BFD9-DDFD25F235BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="011DC43C-83E6-EEEC-FBF4-673FCA8D7191" name="Task_resource_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:20:21 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C6A674-FF2A-ABC6-7DCF-67E51DAC9540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

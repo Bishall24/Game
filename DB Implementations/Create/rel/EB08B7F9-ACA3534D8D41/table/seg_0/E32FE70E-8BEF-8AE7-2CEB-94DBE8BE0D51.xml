@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E32FE70E-8BEF-8AE7-2CEB-94DBE8BE0D51" name="User_assignment">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:26:51 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_assignment_id" id="DFF55708-F93A-172A-7D2B-78AC02D8FA0C">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:41:56 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_id" id="426627FE-097D-3134-7D3F-E84F14EB8B03">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:41:56 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9D6B50D-72CB-6243-4C69-C49E1B5BA055" referredColumn="6B37ED77-CAB5-0D01-9F5B-5EFFFBCB9FC0"/>
+</associations>
+</Column>
+<Column name="Task_id" id="BF8C72B1-D3BC-46A6-F5E9-4B29C64F5E5A">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:41:56 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9581238-AD0E-CD9D-2C02-553573C19226" referredColumn="4AEB1B2B-861D-9B1A-F121-79C1203EB19A"/>
+</associations>
+</Column>
+<Column name="Project_id" id="74780A85-109A-A75B-948E-7DB9365AA714">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:41:56 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97BA5DF5-8051-8B02-C7F9-08EECD78DEAD" referredColumn="753CE8DB-C389-C8BA-1E9E-517BD09DFFAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAD38AF8-1044-9850-8010-DF5D99DCEF46" name="User_assignment_User_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:41:56 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="426627FE-097D-3134-7D3F-E84F14EB8B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16DB913C-42DD-4768-A461-D315635C2AD2" name="User_assignment_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:41:56 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF8C72B1-D3BC-46A6-F5E9-4B29C64F5E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48E2AEE2-3F79-E497-A25E-9D46540179AC" name="User_assignment_Projects_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:41:56 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74780A85-109A-A75B-948E-7DB9365AA714"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

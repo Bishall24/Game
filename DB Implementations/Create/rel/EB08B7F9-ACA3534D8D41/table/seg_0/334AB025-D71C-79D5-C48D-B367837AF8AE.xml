@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="334AB025-D71C-79D5-C48D-B367837AF8AE" name="Subtasks">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:00:18 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Subtasks_id" id="FB7264F6-4633-C9E3-F9B7-2261A8E858DC">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:05:25 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Task_id" id="BD83A8EB-C457-E198-30D4-33D567F12C79">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:05:25 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FEAA305-F4FC-EEBB-78DF-C0B953CCBF8D" referredColumn="4AEB1B2B-861D-9B1A-F121-79C1203EB19A"/>
+</associations>
+</Column>
+<Column name="Subtask_name" id="A1AC7379-CED2-98F3-CE9B-DF5880A97F58">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:05:25 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subtask_desc" id="6F24F9A9-EAB4-3B40-323B-2E90143CB29B">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:05:25 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Due_date" id="B70C6F13-804B-24E8-7215-CA1D1030712C">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:05:25 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53CABA35-0DE7-B426-4C05-54EC1561F191" name="Subtasks_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:05:25 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7264F6-4633-C9E3-F9B7-2261A8E858DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C13D874-15E0-EF8E-0B10-A2C51B9F7966" name="Subtasks_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:05:25 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD83A8EB-C457-E198-30D4-33D567F12C79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

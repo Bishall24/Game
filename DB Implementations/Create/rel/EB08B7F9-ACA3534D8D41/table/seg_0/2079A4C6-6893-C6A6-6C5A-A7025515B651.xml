@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2079A4C6-6893-C6A6-6C5A-A7025515B651" name="Milestone">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:27:34 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Milestone_id" id="2BCA201E-4A18-D1F9-5086-AF71135CAC8B">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:30:40 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Project_id" id="818BD9FC-A6C6-2B83-08AF-792DCC0252B3">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:30:40 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14D3754E-B1F0-80C8-044F-C25387DBE194" referredColumn="753CE8DB-C389-C8BA-1E9E-517BD09DFFAE"/>
+</associations>
+</Column>
+<Column name="Milestone_name" id="DD21AF7C-D883-7674-A720-8F7932529A5A">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:31:42 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Milestone_date" id="2E3D0ACA-93DD-F0CB-443E-A9C8BDCA709E">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:31:42 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="20FBEC83-17E2-B2D8-2203-63F77CFD0861" name="Milestone_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:30:40 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BCA201E-4A18-D1F9-5086-AF71135CAC8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CAB5016-DB70-732D-A0B6-85F43E65A42A" name="Milestone_Projects_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 16:30:40 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="818BD9FC-A6C6-2B83-08AF-792DCC0252B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

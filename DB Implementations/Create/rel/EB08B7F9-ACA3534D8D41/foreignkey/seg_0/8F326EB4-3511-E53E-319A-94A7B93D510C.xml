@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F326EB4-3511-E53E-319A-94A7B93D510C" containerWithKeyObject="7A4FC715-837B-781B-648B-BB48D12A2012" localFKIndex="A42D6B89-0AEF-B0F4-B976-6CD9BDEA98A4" name="Task_resource_Resources_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-12-31 17:20:21 UTC</createdTime>
+<ownerDesignName>Create</ownerDesignName>
+<referredTableLongName>Resources</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AF9DEF3-4826-61C3-2231-AC201AC387B2</referredTableID>
+<keyObject>6C5A3618-C281-4360-99AD-977050C58D9F</keyObject>
+<referredKeyID>6C5A3618-C281-4360-99AD-977050C58D9F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Resource_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
