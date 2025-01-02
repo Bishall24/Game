@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5F2B19B-AC01-A109-3DC3-4A75600A426F" name="User_subtasks">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AD49619-BD21-408D-48BD-516E042B3F26" name="User_Projects">
 <createdBy>Admin</createdBy>
-<createdTime>2024-12-31 16:58:31 UTC</createdTime>
+<createdTime>2025-01-01 05:18:17 UTC</createdTime>
 <ownerDesignName>Create</ownerDesignName>
-<ordsAlias>table_19</ordsAlias>
+<ordsAlias>table_11</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="User_subtasks_id" id="7F72AD3B-7D48-6586-010E-E70043192745">
+<Column name="User_project_id" id="6CF07EE6-B567-0D6A-057A-E8C1ABBD16CB">
 <createdBy>Admin</createdBy>
-<createdTime>2024-12-31 17:00:16 UTC</createdTime>
+<createdTime>2025-01-01 05:19:42 UTC</createdTime>
 <ownerDesignName>Create</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="User_id" id="8BC91B4D-AF43-BA51-5C13-B7DE3DBAF14F">
+<Column name="User_id" id="E9A556DD-0D0E-CDCD-2536-A01437A76499">
 <createdBy>Admin</createdBy>
-<createdTime>2024-12-31 17:00:16 UTC</createdTime>
+<createdTime>2025-01-01 05:19:42 UTC</createdTime>
 <ownerDesignName>Create</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,12 +30,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5AE0B6D3-6D9D-88F2-24DE-B9C8667E1B96" referredColumn="6B37ED77-CAB5-0D01-9F5B-5EFFFBCB9FC0"/>
+<colAssociation fkAssociation="E3C7615F-DE4A-CF78-98C9-6CEE7CB97E42" referredColumn="6B37ED77-CAB5-0D01-9F5B-5EFFFBCB9FC0"/>
 </associations>
 </Column>
-<Column name="Subtasks_id" id="3CE96CE8-06B4-49B4-8C1B-221A5ECF28AC">
+<Column name="Project_id" id="C84FDDAA-BFD2-E495-4FD3-BD09237C2623">
 <createdBy>Admin</createdBy>
-<createdTime>2024-12-31 17:24:36 UTC</createdTime>
+<createdTime>2025-01-01 05:21:28 UTC</createdTime>
 <ownerDesignName>Create</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,40 +44,40 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="579786EC-6A00-8A6C-6683-30E69076D7E5" referredColumn="FB7264F6-4633-C9E3-F9B7-2261A8E858DC"/>
+<colAssociation fkAssociation="B769B806-A4C0-62A1-B3D1-523AC1D7CB53" referredColumn="753CE8DB-C389-C8BA-1E9E-517BD09DFFAE"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A945E41C-7C00-BE23-BBD6-520A9FCC7ECD" name="User_subtasks_PK">
+<ind_PK_UK id="F713CCEB-4F23-9F9F-72E5-85C9A4893797" name="User_Projects_PK">
 <createdBy>Admin</createdBy>
-<createdTime>2024-12-31 17:00:16 UTC</createdTime>
+<createdTime>2025-01-01 05:19:42 UTC</createdTime>
 <ownerDesignName>Create</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7F72AD3B-7D48-6586-010E-E70043192745"/>
+<colUsage columnID="6CF07EE6-B567-0D6A-057A-E8C1ABBD16CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="06680146-AAE0-7D15-7D43-336468FF7C12" name="User_subtasks_User_FK">
+<ind_PK_UK id="4CF189DB-7750-F5EB-B670-8491597B5AEC" name="User_Projects_User_FK">
 <createdBy>Admin</createdBy>
-<createdTime>2024-12-31 17:00:16 UTC</createdTime>
+<createdTime>2025-01-01 05:21:28 UTC</createdTime>
 <ownerDesignName>Create</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8BC91B4D-AF43-BA51-5C13-B7DE3DBAF14F"/>
+<colUsage columnID="E9A556DD-0D0E-CDCD-2536-A01437A76499"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1F3C9CDF-64A0-0125-5122-A5F6B611C62C" name="User_subtasks_Subtasks_FK">
+<ind_PK_UK id="09B9A70F-EF83-028A-DEAF-A62A200E0267" name="User_Projects_Projects_FK">
 <createdBy>Admin</createdBy>
-<createdTime>2025-01-02 09:09:57 UTC</createdTime>
+<createdTime>2025-01-01 05:21:28 UTC</createdTime>
 <ownerDesignName>Create</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3CE96CE8-06B4-49B4-8C1B-221A5ECF28AC"/>
+<colUsage columnID="C84FDDAA-BFD2-E495-4FD3-BD09237C2623"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
