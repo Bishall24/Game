@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60D84A6D-86EF-0DB1-6597-25954B3F3CEA" name="Task">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:25:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_id" id="AC8B932D-8F2B-169E-1315-DEA612FB2590">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:27:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_name" id="5D29B693-90E3-611D-1655-46047699F9C8">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:27:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_start_date" id="5EEB52F5-4A62-4EE6-96AF-5A588BD83F31">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:27:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_due_date" id="F01BD422-D29A-3E33-D30F-AC0D42C5F3FE">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:27:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_status" id="312DC98A-DC21-A1CD-BC70-6710F1DB1443">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:27:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C2A3BD9-7FD3-0BDD-39A6-F3098C94FB02" name="Task_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:27:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC8B932D-8F2B-169E-1315-DEA612FB2590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

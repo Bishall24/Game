@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7E09EA8-95B2-0534-4BF5-7692E6318EC2" name="comments">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:40:22 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="c_id" id="3307D5C4-04CB-4A8F-B6E0-BDFAEC86A360">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:42:14 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="u_id" id="327ED912-C67C-E57B-2777-FA1C418A768C">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:42:14 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61326A30-6E13-2B76-36E8-E286A5957CA1" referredColumn="627A6A3D-B301-099A-E5C9-2D717DA7EC93"/>
+</associations>
+</Column>
+<Column name="c_date" id="49F2F04F-019C-F0D1-6451-230A32842A59">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:42:14 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BED8F82-3BF6-38EF-FA95-22C02BBF3614" name="comments_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:42:14 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3307D5C4-04CB-4A8F-B6E0-BDFAEC86A360"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51E72276-50F8-34F9-6315-3836F625B5CE" name="comments_tb_user_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:42:14 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="327ED912-C67C-E57B-2777-FA1C418A768C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

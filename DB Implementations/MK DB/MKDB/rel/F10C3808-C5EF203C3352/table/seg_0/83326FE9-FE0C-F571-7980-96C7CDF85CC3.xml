@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83326FE9-FE0C-F571-7980-96C7CDF85CC3" name="tb_user">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:21:55 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="u_id" id="627A6A3D-B301-099A-E5C9-2D717DA7EC93">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:23:21 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="u_name" id="18F84886-E625-6F82-59FF-3D135886962C">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:25:17 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="u_email" id="FA4C3E6D-CF53-CE16-F80C-DC69F7F7162D">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:25:17 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="u_contact" id="E5B9A620-179F-D0AD-47FE-44C162F71231">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:25:17 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4098D827-631B-ECA4-3F23-CBE4E8ED1F1E" name="tb_user_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:25:17 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="627A6A3D-B301-099A-E5C9-2D717DA7EC93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

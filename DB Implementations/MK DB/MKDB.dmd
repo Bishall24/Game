@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MKDB" id="16EA7D9B-3276-63FE-F043-13FD03B87906" version="3.5">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:20:54 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>16EA7D9B-3276-63FE-F043-13FD03B87906</designId>
+</OSDM_Design>

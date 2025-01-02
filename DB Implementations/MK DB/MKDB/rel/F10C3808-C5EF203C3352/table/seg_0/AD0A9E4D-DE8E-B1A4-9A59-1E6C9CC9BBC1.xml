@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD0A9E4D-DE8E-B1A4-9A59-1E6C9CC9BBC1" name="tb_resource">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:27:52 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="r_id" id="7FECBC77-F20C-670A-C64B-7EEA45ABCB5C">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:29:28 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="r_name" id="3531858D-DF17-5D04-7F30-9FCFC092318B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:29:28 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A91407F-FCF8-408F-8CE5-B99DD0B0E89F" name="tb_resource_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:29:28 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FECBC77-F20C-670A-C64B-7EEA45ABCB5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

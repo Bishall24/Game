@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCF16293-D196-3CF0-9661-EE17D3D1694C" name="Projects">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:29:29 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="p_id" id="E261265E-2770-9ACC-7C9C-EB68D5B2D227">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:31:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_name" id="A040EEE7-A39F-DB94-DBA5-A1AE817F1512">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:31:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_start_date" id="461A5F63-ECB6-1047-F493-F8896CBD06F7">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:31:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_due_date" id="E265721A-FF53-F0B9-2C6E-09BBA14D9CC9">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:31:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_status" id="03FC2483-B689-CC3C-0458-39049E0CE0DE">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:31:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD5055ED-66A7-21B8-DBAF-0CE10B42AE5B" name="Projects_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:31:32 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E261265E-2770-9ACC-7C9C-EB68D5B2D227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

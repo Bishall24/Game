@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7634B906-4F20-9537-C0C9-98425DD61D09" name="milestone">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:52:04 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="m_id" id="527EA950-2EB6-5CB1-720D-1B0E79F58516">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:02:40 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_id" id="30676D23-BA31-340D-8CB7-5690378659A8">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:02:40 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F26FD7-2248-2C33-9C36-D620E0FA400F" referredColumn="E261265E-2770-9ACC-7C9C-EB68D5B2D227"/>
+</associations>
+</Column>
+<Column name="m_name" id="A0CD0157-0613-C75B-3C31-B46AB3FD08F7">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:02:40 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="136BD88B-0910-CDA0-8278-B3165CA3F3FB" name="milestone_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:02:40 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="527EA950-2EB6-5CB1-720D-1B0E79F58516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C72B1422-53BF-2AB7-B565-C866A2626BC4" name="milestone_Projects_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:02:40 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30676D23-BA31-340D-8CB7-5690378659A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

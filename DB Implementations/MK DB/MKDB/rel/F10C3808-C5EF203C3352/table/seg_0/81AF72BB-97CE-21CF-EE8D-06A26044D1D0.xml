@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81AF72BB-97CE-21CF-EE8D-06A26044D1D0" name="usersubtask">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 17:51:22 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="u_s_id" id="63391C37-8983-4CE2-C5C7-28DB164781E6">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:40:09 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="u_id" id="509B029B-1E55-4722-050F-F87F14F000DB">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:40:09 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82F95DE0-C75B-26B9-80B2-ECA22BE31A11" referredColumn="627A6A3D-B301-099A-E5C9-2D717DA7EC93"/>
+</associations>
+</Column>
+<Column name="s_id" id="FAE13A9B-9900-F0E4-FBEE-A1A70A978FAE">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:40:09 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79DB6B72-8EC0-AEE8-9920-550D23B1C591" referredColumn="5736CD98-5046-3457-1EDF-E8F54DAD6D98"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17589360-E202-AFC8-83DE-0C0A02FC7980" name="usersubtask_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:40:09 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63391C37-8983-4CE2-C5C7-28DB164781E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="494CBE91-896C-257A-CB70-369E9FF01DBC" name="usersubtask_tb_user_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:40:09 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="509B029B-1E55-4722-050F-F87F14F000DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D92F8166-E0BC-2698-0C62-ABD5EDC438A7" name="usersubtask_subtasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-02 18:40:09 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE13A9B-9900-F0E4-FBEE-A1A70A978FAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
