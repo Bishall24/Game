@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC97EC6D-B727-E47A-BE89-DF7AA92C7F80" name="user_project_task">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:29:05 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="upt_id" id="D6D89370-D245-BD97-B8AF-B36E1F69120B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="p_id" id="68489948-361E-0795-90A0-3A2240FE021A">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F45E63B9-C56C-6404-2549-403D5B233ECB" referredColumn="E261265E-2770-9ACC-7C9C-EB68D5B2D227"/>
+</associations>
+</Column>
+<Column name="u_id" id="3AF3A22A-2E3D-38B1-98C7-4F1A22677C6A">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC5D1455-CED8-F872-97E2-861B48B44802" referredColumn="627A6A3D-B301-099A-E5C9-2D717DA7EC93"/>
+</associations>
+</Column>
+<Column name="t_id" id="FA97A168-D883-B63A-C00C-DDDB6AB125C8">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE09FC0C-6C39-0A58-C06F-62505FFB289C" referredColumn="AC8B932D-8F2B-169E-1315-DEA612FB2590"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A597620-A818-0ECA-81B6-9916B0EC35F5" name="user_project_task_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D89370-D245-BD97-B8AF-B36E1F69120B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3258F542-9725-258B-3525-82E69CC31307" name="user_project_task_Projects_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68489948-361E-0795-90A0-3A2240FE021A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="390878FA-4A7A-576F-F40B-D207A37BFDE8" name="user_project_task_tb_user_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AF3A22A-2E3D-38B1-98C7-4F1A22677C6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04C8CC55-2781-02DA-F997-FE0E76167E8F" name="user_project_task_Task_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-01-03 04:31:38 UTC</createdTime>
+<ownerDesignName>MKDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA97A168-D883-B63A-C00C-DDDB6AB125C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
