@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="907171FC-2AE5-D6FD-20CB-C275D560160B" name="UserProject">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:45:20 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserProjectID" id="0A60FD18-6813-2A0B-88FF-6C683DBF495F">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:47:29 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User__ID" id="1075E2E0-861A-4863-3230-04B278A01253">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:48:43 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFEA25F6-0F33-F5D0-D6C5-ACF84A2F1B54" referredColumn="77933066-B36F-9B21-FD37-2F4C8651E8B3"/>
+</associations>
+</Column>
+<Column name="Project__ID" id="28FA1600-BB0E-4D96-5EC1-D00BA147329A">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:49:29 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8937001F-C303-5994-5303-E382D175C495" referredColumn="88D01006-5BF4-1BED-3036-AB989D952ACD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC7C3195-035E-15B3-3FF5-E1FFFECBD221" name="UserProject_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:47:29 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A60FD18-6813-2A0B-88FF-6C683DBF495F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61F4266D-8402-3934-4C35-4725AFD1F95C" name="UserProject_Users_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:50:09 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1075E2E0-861A-4863-3230-04B278A01253"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D0C2C87-D471-BBE5-5022-0ED5C800C262" name="UserProject_Projects_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:50:22 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28FA1600-BB0E-4D96-5EC1-D00BA147329A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

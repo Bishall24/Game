@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="150CBBDC-9A22-BF81-8D95-65109A6DDAAA" name="Comments">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:30:33 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CommentID" id="DE17AED9-339B-608F-8FCF-DF6E7040087D">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:32:34 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CommentContent" id="5E74E1C8-92C2-1E46-8A09-F95BBF4380EC">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:33:05 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CommentDate" id="5B147483-439D-E13E-6CD7-2D24EC8C78E2">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:33:20 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User___ID" id="2F9E1A8E-F3B6-AD26-8C4E-2CFF6B0690D5">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:33:48 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7B22B73-CD02-C2B0-8457-D477AD7A1EFA" referredColumn="77933066-B36F-9B21-FD37-2F4C8651E8B3"/>
+</associations>
+</Column>
+<Column name="Task___ID" id="FECE41D1-756A-7F52-DB3F-C8B065DD2B64">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:34:08 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61894A1E-6F80-798F-558B-79DD696A66CB" referredColumn="C632D55E-731E-B991-34E7-65FAC4E6FCC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3E34B0C-EED1-9D30-9799-AAF1512FCDFB" name="Comments_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:32:34 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE17AED9-339B-608F-8FCF-DF6E7040087D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA5A8D34-EC61-9BAA-877E-67C566D7019D" name="Comments_Users_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:35:20 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F9E1A8E-F3B6-AD26-8C4E-2CFF6B0690D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAE39125-EFDD-8DD7-0349-9E373A101C7E" name="Comments_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:35:30 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FECE41D1-756A-7F52-DB3F-C8B065DD2B64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

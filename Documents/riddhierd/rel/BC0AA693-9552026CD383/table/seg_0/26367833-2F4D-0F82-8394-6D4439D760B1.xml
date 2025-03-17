@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26367833-2F4D-0F82-8394-6D4439D760B1" name="ResourceTask">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:20:40 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ResourceTaskID" id="2BB33C69-CDD2-1E1E-11A9-2B8B0941903E">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:21:52 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Resource_ID" id="C359F758-4AAF-AA09-02C5-53462C7A7AB4">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:23:29 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFDA3B6A-F3F1-B27C-8980-064676B1B77F" referredColumn="739369A2-FFBC-34BE-7548-89EA62DC2DBF"/>
+</associations>
+</Column>
+<Column name="Task__ID" id="B3ECE7BC-B714-36F4-1C31-B895808EFBB2">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:24:00 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E5EBB85-271F-208E-11B4-AB355C179059" referredColumn="C632D55E-731E-B991-34E7-65FAC4E6FCC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77A75418-8690-9FEA-FB29-2157FE73810E" name="ResourceTask_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:21:52 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BB33C69-CDD2-1E1E-11A9-2B8B0941903E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AB4CCD8-BEA7-09DD-25FD-AF278E2761EE" name="ResourceTask_Resources_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:24:51 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C359F758-4AAF-AA09-02C5-53462C7A7AB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6D9A30A-61CA-5AAC-48F9-6C9D18776960" name="ResourceTask_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:25:03 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3ECE7BC-B714-36F4-1C31-B895808EFBB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

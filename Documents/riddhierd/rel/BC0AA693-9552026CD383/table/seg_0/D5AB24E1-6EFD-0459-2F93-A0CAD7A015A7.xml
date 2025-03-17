@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5AB24E1-6EFD-0459-2F93-A0CAD7A015A7" name="Projects">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:30:50 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProjectID" id="88D01006-5BF4-1BED-3036-AB989D952ACD">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:31:12 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectName" id="164A7882-F787-D408-7F3F-DE8E822CC8CF">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:31:33 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectStartDate" id="4BF5D5D8-8F1F-62B3-B6A5-A723C30BB9B6">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:41:37 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectDueDate" id="44078D82-F74B-7310-B3E6-B542161248FB">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:43:57 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProjectStatus" id="385EA98F-B16F-5840-9300-5E4907D80356">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:45:07 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B5F9BB0-4DED-1D02-8E00-5E385A7ADAF4" name="Projects_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:31:12 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88D01006-5BF4-1BED-3036-AB989D952ACD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

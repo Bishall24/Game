@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E8EE495-3294-D36E-A74A-FAD5D2B34FEA" name="Users">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:24:36 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserID" id="77933066-B36F-9B21-FD37-2F4C8651E8B3">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:28:20 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserName" id="3466EE41-E150-719C-324D-4BE864DA7FCA">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:28:54 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserEmail" id="83436887-6C5F-C306-60FE-D25D2D1F00C0">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:29:24 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserContact" id="3B912C49-4A64-9A97-6922-7F91060EE90F">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:29:59 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68BAC0F4-23B5-A02D-611C-534AFBA32E4F" name="Users_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:28:20 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77933066-B36F-9B21-FD37-2F4C8651E8B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

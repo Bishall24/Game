@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B42CC1A-AE9D-EC95-A9AA-AC42E8D87855" name="UserProjectTask">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:54:10 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserProjectTaskID" id="0FCD4C7C-D9FC-E0DA-5F05-EC1462E7E498">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:55:03 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Task_ID" id="BEE0A738-0AAC-9750-60B5-D25514CCA8F4">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:55:37 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B898494-4FA5-BEA3-74A3-F094DF9129CD" referredColumn="C632D55E-731E-B991-34E7-65FAC4E6FCC8"/>
+</associations>
+</Column>
+<Column name="User_Project_ID" id="7829C715-2D32-41AB-B51A-B6901D4F4F64">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:56:28 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD5C41B4-E0E9-93F4-9B3F-A7A4BB7990D9" referredColumn="0A60FD18-6813-2A0B-88FF-6C683DBF495F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D748E74-D476-4FE8-8A92-D085CD79CB7C" name="UserProjectTask_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:58:02 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FCD4C7C-D9FC-E0DA-5F05-EC1462E7E498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EF7F75F-CFA2-E668-A150-6299156626CB" name="UserProjectTask_UserProject_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:56:54 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7829C715-2D32-41AB-B51A-B6901D4F4F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65E47D8E-BE19-82D7-F1ED-8069BC6BFDFF" name="UserProjectTask_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:57:07 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEE0A738-0AAC-9750-60B5-D25514CCA8F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

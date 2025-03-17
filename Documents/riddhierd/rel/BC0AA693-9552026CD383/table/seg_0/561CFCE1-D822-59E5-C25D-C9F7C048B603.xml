@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="561CFCE1-D822-59E5-C25D-C9F7C048B603" name="Subtasks">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 11:58:18 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SubtaskID" id="825C5757-21DA-0B97-F446-4A21ED6A97DD">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:13:04 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SubtaskName" id="40D8995E-3C7B-BBCF-3E7D-075CFFCE7B36">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:13:25 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Task_ID" id="3EFD9136-DB6D-7F46-B6DD-8794D7EDEF13">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:14:09 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17B0C101-FFD1-A9A5-194B-43DF0F908E6A" referredColumn="C632D55E-731E-B991-34E7-65FAC4E6FCC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEF386C8-1E36-BFF3-43AD-7FD94DEC6FAE" name="Subtasks_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:13:04 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="825C5757-21DA-0B97-F446-4A21ED6A97DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B43C7DB-2FBA-8E1E-70F6-C191D0004BBD" name="Subtasks_Tasks_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-03-17 12:14:37 UTC</createdTime>
+<ownerDesignName>riddhierd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EFD9136-DB6D-7F46-B6DD-8794D7EDEF13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
